@@ -1,0 +1,37 @@
+<!--Registration Form (Extended): Create a more detailed registration form with labels and input fields for "Full Name" (text), "Email" (email), "Password" (password), "Gender" (radio buttons for Male, Female, Other), and "Bio" (<textarea>). Include a "Register" button.
+-->
+<!DOCTYPE html> 
+<html Lang="en">
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<title>Q2</title>
+<body>
+<h2>Registration Form</h2>
+<form>
+<label for="fullname">Full Name:</label>
+ <input type="text" id="fullname" required>
+ <br><br>
+ <label for="email">Email:</label>
+ <input type="email" id="email" required>
+ <br><br>
+<label for="password">Password:</label>
+ <input type="password" id="password" required>
+<br><br>
+<label>Gender:</label>
+ <input type="radio" name="gender">Male
+    </label> 
+<label>
+  <input type="radio" name="gender">Female
+</label>
+<label>
+  <input type="radio" name="gender">Others  
+</label><br><br>
+<label for="bio">Bio</label><br>
+<textarea name="bio"id="bio"rows="10"cols="30" placeholder="About Yourself"></textarea>
+<br><br>
+<input type="submit" value="Register" >
+</form>
+</body>
+</html>
